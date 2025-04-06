@@ -19,9 +19,11 @@ namespace KursParsSelenium
             // Отключаем логи, а точнее, создаем файл, куда будут выводиться удавшимся просочиться логам
             // service.LogPath = "chromedriver.log";
             // service.EnableAppendLog = false; // true = перезапись логов в конец файла, false перезаписывать
+            var options = new ChromeOptions();
+            options.AddArgument("--headless"); // Режим без графического интерфейса
 
 
-            IWebDriver driver = new ChromeDriver(service);
+            IWebDriver driver = new ChromeDriver(service, options);
             driver.Navigate().GoToUrl("https://sutochno.ru/");
 
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
