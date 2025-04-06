@@ -35,285 +35,217 @@
 
         private void InitializeComponent()
         {
-            groupBoxInput = new GroupBox();
-            lblCity = new Label();
-            txtCity = new TextBox();
-            lblArrival = new Label();
-            dtpArrival = new DateTimePicker();
-            lblDeparture = new Label();
-            dtpDeparture = new DateTimePicker();
-            lblMinCost = new Label();
-            txtMinCost = new TextBox();
-            lblMaxCost = new Label();
-            txtMaxCost = new TextBox();
-            lblSortMethod = new Label();
-            cmbSortMethod = new ComboBox();
-            btnStart = new Button();
-            dgvListings = new DataGridView();
-            btnOpenSelected = new Button();
-            lblStatus = new Label();
-            dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
-            dataGridViewTextBoxColumn2 = new DataGridViewTextBoxColumn();
-            dataGridViewTextBoxColumn3 = new DataGridViewTextBoxColumn();
-            dataGridViewTextBoxColumn4 = new DataGridViewTextBoxColumn();
-            dataGridViewTextBoxColumn5 = new DataGridViewTextBoxColumn();
-            dataGridViewTextBoxColumn6 = new DataGridViewTextBoxColumn();
-            groupBoxInput.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvListings).BeginInit();
-            SuspendLayout();
+            this.groupBoxInput = new System.Windows.Forms.GroupBox();
+            this.lblCity = new System.Windows.Forms.Label();
+            this.txtCity = new System.Windows.Forms.TextBox();
+            this.lblArrival = new System.Windows.Forms.Label();
+            this.dtpArrival = new System.Windows.Forms.DateTimePicker();
+            this.lblDeparture = new System.Windows.Forms.Label();
+            this.dtpDeparture = new System.Windows.Forms.DateTimePicker();
+            this.lblMinCost = new System.Windows.Forms.Label();
+            this.txtMinCost = new System.Windows.Forms.TextBox();
+            this.lblMaxCost = new System.Windows.Forms.Label();
+            this.txtMaxCost = new System.Windows.Forms.TextBox();
+            this.lblSortMethod = new System.Windows.Forms.Label();
+            this.cmbSortMethod = new System.Windows.Forms.ComboBox();
+            this.btnStart = new System.Windows.Forms.Button();
+            this.dgvListings = new System.Windows.Forms.DataGridView();
+            this.btnOpenSelected = new System.Windows.Forms.Button();
+            this.lblStatus = new System.Windows.Forms.Label();
+            this.groupBoxInput.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListings)).BeginInit();
+            this.SuspendLayout();
             // 
             // groupBoxInput
             // 
-            groupBoxInput.Controls.Add(lblCity);
-            groupBoxInput.Controls.Add(txtCity);
-            groupBoxInput.Controls.Add(lblArrival);
-            groupBoxInput.Controls.Add(dtpArrival);
-            groupBoxInput.Controls.Add(lblDeparture);
-            groupBoxInput.Controls.Add(dtpDeparture);
-            groupBoxInput.Controls.Add(lblMinCost);
-            groupBoxInput.Controls.Add(txtMinCost);
-            groupBoxInput.Controls.Add(lblMaxCost);
-            groupBoxInput.Controls.Add(txtMaxCost);
-            groupBoxInput.Controls.Add(lblSortMethod);
-            groupBoxInput.Controls.Add(cmbSortMethod);
-            groupBoxInput.Controls.Add(btnStart);
-            groupBoxInput.Location = new Point(26, 30);
-            groupBoxInput.Margin = new Padding(6, 7, 6, 7);
-            groupBoxInput.Name = "groupBoxInput";
-            groupBoxInput.Padding = new Padding(6, 7, 6, 7);
-            groupBoxInput.Size = new Size(1647, 295);
-            groupBoxInput.TabIndex = 0;
-            groupBoxInput.TabStop = false;
-            groupBoxInput.Text = "Входные данные";
+            this.groupBoxInput.Controls.Add(this.lblCity);
+            this.groupBoxInput.Controls.Add(this.txtCity);
+            this.groupBoxInput.Controls.Add(this.lblArrival);
+            this.groupBoxInput.Controls.Add(this.dtpArrival);
+            this.groupBoxInput.Controls.Add(this.lblDeparture);
+            this.groupBoxInput.Controls.Add(this.dtpDeparture);
+            this.groupBoxInput.Controls.Add(this.lblMinCost);
+            this.groupBoxInput.Controls.Add(this.txtMinCost);
+            this.groupBoxInput.Controls.Add(this.lblMaxCost);
+            this.groupBoxInput.Controls.Add(this.txtMaxCost);
+            this.groupBoxInput.Controls.Add(this.lblSortMethod);
+            this.groupBoxInput.Controls.Add(this.cmbSortMethod);
+            this.groupBoxInput.Controls.Add(this.btnStart);
+            this.groupBoxInput.Location = new System.Drawing.Point(12, 12);
+            this.groupBoxInput.Name = "groupBoxInput";
+            this.groupBoxInput.Size = new System.Drawing.Size(760, 120);
+            this.groupBoxInput.TabIndex = 0;
+            this.groupBoxInput.TabStop = false;
+            this.groupBoxInput.Text = "Входные данные";
             // 
             // lblCity
             // 
-            lblCity.AutoSize = true;
-            lblCity.Location = new Point(13, 54);
-            lblCity.Margin = new Padding(6, 0, 6, 0);
-            lblCity.Name = "lblCity";
-            lblCity.Size = new Size(180, 32);
-            lblCity.TabIndex = 0;
-            lblCity.Text = "Введите город:";
+            this.lblCity.AutoSize = true;
+            this.lblCity.Location = new System.Drawing.Point(6, 22);
+            this.lblCity.Name = "lblCity";
+            this.lblCity.Size = new System.Drawing.Size(75, 13);
+            this.lblCity.TabIndex = 0;
+            this.lblCity.Text = "Введите город:";
             // 
             // txtCity
             // 
-            txtCity.Location = new Point(195, 47);
-            txtCity.Margin = new Padding(6, 7, 6, 7);
-            txtCity.Name = "txtCity";
-            txtCity.Size = new Size(320, 39);
-            txtCity.TabIndex = 1;
+            this.txtCity.Location = new System.Drawing.Point(90, 19);
+            this.txtCity.Name = "txtCity";
+            this.txtCity.Size = new System.Drawing.Size(150, 20);
+            this.txtCity.TabIndex = 1;
             // 
             // lblArrival
             // 
-            lblArrival.AutoSize = true;
-            lblArrival.Location = new Point(542, 54);
-            lblArrival.Margin = new Padding(6, 0, 6, 0);
-            lblArrival.Name = "lblArrival";
-            lblArrival.Size = new Size(149, 32);
-            lblArrival.TabIndex = 2;
-            lblArrival.Text = "Дата заезда:";
+            this.lblArrival.AutoSize = true;
+            this.lblArrival.Location = new System.Drawing.Point(250, 22);
+            this.lblArrival.Name = "lblArrival";
+            this.lblArrival.Size = new System.Drawing.Size(101, 13);
+            this.lblArrival.TabIndex = 2;
+            this.lblArrival.Text = "Дата заезда:";
             // 
             // dtpArrival
             // 
-            dtpArrival.CustomFormat = "dd.MM.yyyy";
-            dtpArrival.Format = DateTimePickerFormat.Custom;
-            dtpArrival.Location = new Point(774, 47);
-            dtpArrival.Margin = new Padding(6, 7, 6, 7);
-            dtpArrival.Name = "dtpArrival";
-            dtpArrival.Size = new Size(212, 39);
-            dtpArrival.TabIndex = 3;
+            this.dtpArrival.CustomFormat = "dd.MM.yyyy";
+            this.dtpArrival.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpArrival.Location = new System.Drawing.Point(357, 19);
+            this.dtpArrival.Name = "dtpArrival";
+            this.dtpArrival.Size = new System.Drawing.Size(100, 20);
+            this.dtpArrival.TabIndex = 3;
             // 
             // lblDeparture
             // 
-            lblDeparture.AutoSize = true;
-            lblDeparture.Location = new Point(1018, 54);
-            lblDeparture.Margin = new Padding(6, 0, 6, 0);
-            lblDeparture.Name = "lblDeparture";
-            lblDeparture.Size = new Size(156, 32);
-            lblDeparture.TabIndex = 4;
-            lblDeparture.Text = "Дата выезда:";
+            this.lblDeparture.AutoSize = true;
+            this.lblDeparture.Location = new System.Drawing.Point(470, 22);
+            this.lblDeparture.Name = "lblDeparture";
+            this.lblDeparture.Size = new System.Drawing.Size(101, 13);
+            this.lblDeparture.TabIndex = 4;
+            this.lblDeparture.Text = "Дата выезда:";
             // 
             // dtpDeparture
             // 
-            dtpDeparture.CustomFormat = "dd.MM.yyyy";
-            dtpDeparture.Format = DateTimePickerFormat.Custom;
-            dtpDeparture.Location = new Point(1250, 47);
-            dtpDeparture.Margin = new Padding(6, 7, 6, 7);
-            dtpDeparture.Name = "dtpDeparture";
-            dtpDeparture.Size = new Size(212, 39);
-            dtpDeparture.TabIndex = 5;
+            this.dtpDeparture.CustomFormat = "dd.MM.yyyy";
+            this.dtpDeparture.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpDeparture.Location = new System.Drawing.Point(577, 19);
+            this.dtpDeparture.Name = "dtpDeparture";
+            this.dtpDeparture.Size = new System.Drawing.Size(100, 20);
+            this.dtpDeparture.TabIndex = 5;
             // 
             // lblMinCost
             // 
-            lblMinCost.AutoSize = true;
-            lblMinCost.Location = new Point(13, 135);
-            lblMinCost.Margin = new Padding(6, 0, 6, 0);
-            lblMinCost.Name = "lblMinCost";
-            lblMinCost.Size = new Size(295, 32);
-            lblMinCost.TabIndex = 6;
-            lblMinCost.Text = "Минимальная стоимость:";
+            this.lblMinCost.AutoSize = true;
+            this.lblMinCost.Location = new System.Drawing.Point(6, 55);
+            this.lblMinCost.Name = "lblMinCost";
+            this.lblMinCost.Size = new System.Drawing.Size(138, 13);
+            this.lblMinCost.TabIndex = 6;
+            this.lblMinCost.Text = "Минимальная стоимость:";
             // 
             // txtMinCost
             // 
-            txtMinCost.Location = new Point(325, 128);
-            txtMinCost.Margin = new Padding(6, 7, 6, 7);
-            txtMinCost.Name = "txtMinCost";
-            txtMinCost.Size = new Size(190, 39);
-            txtMinCost.TabIndex = 7;
+            this.txtMinCost.Location = new System.Drawing.Point(150, 52);
+            this.txtMinCost.Name = "txtMinCost";
+            this.txtMinCost.Size = new System.Drawing.Size(90, 20);
+            this.txtMinCost.TabIndex = 7;
             // 
             // lblMaxCost
             // 
-            lblMaxCost.AutoSize = true;
-            lblMaxCost.Location = new Point(542, 135);
-            lblMaxCost.Margin = new Padding(6, 0, 6, 0);
-            lblMaxCost.Name = "lblMaxCost";
-            lblMaxCost.Size = new Size(302, 32);
-            lblMaxCost.TabIndex = 8;
-            lblMaxCost.Text = "Максимальная стоимость:";
+            this.lblMaxCost.AutoSize = true;
+            this.lblMaxCost.Location = new System.Drawing.Point(250, 55);
+            this.lblMaxCost.Name = "lblMaxCost";
+            this.lblMaxCost.Size = new System.Drawing.Size(146, 13);
+            this.lblMaxCost.TabIndex = 8;
+            this.lblMaxCost.Text = "Максимальная стоимость:";
             // 
             // txtMaxCost
             // 
-            txtMaxCost.Location = new Point(871, 128);
-            txtMaxCost.Margin = new Padding(6, 7, 6, 7);
-            txtMaxCost.Name = "txtMaxCost";
-            txtMaxCost.Size = new Size(190, 39);
-            txtMaxCost.TabIndex = 9;
+            this.txtMaxCost.Location = new System.Drawing.Point(402, 52);
+            this.txtMaxCost.Name = "txtMaxCost";
+            this.txtMaxCost.Size = new System.Drawing.Size(90, 20);
+            this.txtMaxCost.TabIndex = 9;
             // 
             // lblSortMethod
             // 
-            lblSortMethod.AutoSize = true;
-            lblSortMethod.Location = new Point(1062, 135);
-            lblSortMethod.Margin = new Padding(6, 0, 6, 0);
-            lblSortMethod.Name = "lblSortMethod";
-            lblSortMethod.Size = new Size(228, 32);
-            lblSortMethod.TabIndex = 10;
-            lblSortMethod.Text = "Метод сортировки:";
+            this.lblSortMethod.AutoSize = true;
+            this.lblSortMethod.Location = new System.Drawing.Point(495, 55);
+            this.lblSortMethod.Name = "lblSortMethod";
+            this.lblSortMethod.Size = new System.Drawing.Size(93, 13);
+            this.lblSortMethod.TabIndex = 10;
+            this.lblSortMethod.Text = "Метод сортировки:";
             // 
             // cmbSortMethod
             // 
-            cmbSortMethod.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbSortMethod.FormattingEnabled = true;
-            cmbSortMethod.Location = new Point(1300, 128);
-            cmbSortMethod.Margin = new Padding(6, 7, 6, 7);
-            cmbSortMethod.Name = "cmbSortMethod";
-            cmbSortMethod.Size = new Size(320, 40);
-            cmbSortMethod.TabIndex = 11;
+            this.cmbSortMethod.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbSortMethod.FormattingEnabled = true;
+            this.cmbSortMethod.Location = new System.Drawing.Point(600, 52);
+            this.cmbSortMethod.Name = "cmbSortMethod";
+            this.cmbSortMethod.Size = new System.Drawing.Size(150, 21);
+            this.cmbSortMethod.TabIndex = 11;
             // 
             // btnStart
             // 
-            btnStart.Location = new Point(13, 209);
-            btnStart.Margin = new Padding(6, 7, 6, 7);
-            btnStart.Name = "btnStart";
-            btnStart.Size = new Size(217, 57);
-            btnStart.TabIndex = 12;
-            btnStart.Text = "Начать парсинг";
-            btnStart.UseVisualStyleBackColor = true;
-            btnStart.Click += btnStart_Click;
+            this.btnStart.Location = new System.Drawing.Point(6, 85);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(100, 23);
+            this.btnStart.TabIndex = 12;
+            this.btnStart.Text = "Начать парсинг";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // dgvListings
             // 
-            dgvListings.AllowUserToAddRows = false;
-            dgvListings.AllowUserToDeleteRows = false;
-            dgvListings.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvListings.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumn1, dataGridViewTextBoxColumn2, dataGridViewTextBoxColumn3, dataGridViewTextBoxColumn4, dataGridViewTextBoxColumn5, dataGridViewTextBoxColumn6 });
-            dgvListings.Location = new Point(26, 340);
-            dgvListings.Margin = new Padding(6, 7, 6, 7);
-            dgvListings.MultiSelect = false;
-            dgvListings.Name = "dgvListings";
-            dgvListings.ReadOnly = true;
-            dgvListings.RowHeadersWidth = 82;
-            dgvListings.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvListings.Size = new Size(1647, 738);
-            dgvListings.TabIndex = 13;
+            this.dgvListings.AllowUserToAddRows = false;
+            this.dgvListings.AllowUserToDeleteRows = false;
+            this.dgvListings.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvListings.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+                new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "Title", HeaderText = "Название отеля" },
+                new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "Price", HeaderText = "Цена" },
+                new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "Rating", HeaderText = "Оценка" },
+                new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "ReviewsCount", HeaderText = "Кол-во отзывов" },
+                new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "PriceQualityRatio", HeaderText = "Коэф. цена/качества" },
+                new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "Link", HeaderText = "Ссылка", Visible = false }
+            });
+            this.dgvListings.Location = new System.Drawing.Point(12, 138);
+            this.dgvListings.MultiSelect = false;
+            this.dgvListings.Name = "dgvListings";
+            this.dgvListings.ReadOnly = true;
+            this.dgvListings.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvListings.Size = new System.Drawing.Size(760, 300);
+            this.dgvListings.TabIndex = 13;
             // 
             // btnOpenSelected
             // 
-            btnOpenSelected.Location = new Point(26, 1093);
-            btnOpenSelected.Margin = new Padding(6, 7, 6, 7);
-            btnOpenSelected.Name = "btnOpenSelected";
-            btnOpenSelected.Size = new Size(325, 57);
-            btnOpenSelected.TabIndex = 14;
-            btnOpenSelected.Text = "Открыть выбранное";
-            btnOpenSelected.UseVisualStyleBackColor = true;
-            btnOpenSelected.Click += btnOpenSelected_Click;
+            this.btnOpenSelected.Location = new System.Drawing.Point(12, 444);
+            this.btnOpenSelected.Name = "btnOpenSelected";
+            this.btnOpenSelected.Size = new System.Drawing.Size(150, 23);
+            this.btnOpenSelected.TabIndex = 14;
+            this.btnOpenSelected.Text = "Открыть выбранное";
+            this.btnOpenSelected.UseVisualStyleBackColor = true;
+            this.btnOpenSelected.Click += new System.EventHandler(this.btnOpenSelected_Click);
             // 
             // lblStatus
             // 
-            lblStatus.AutoSize = true;
-            lblStatus.Location = new Point(390, 1105);
-            lblStatus.Margin = new Padding(6, 0, 6, 0);
-            lblStatus.Name = "lblStatus";
-            lblStatus.Size = new Size(89, 32);
-            lblStatus.TabIndex = 15;
-            lblStatus.Text = "Статус:";
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            dataGridViewTextBoxColumn1.MinimumWidth = 10;
-            dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            dataGridViewTextBoxColumn1.ReadOnly = true;
-            dataGridViewTextBoxColumn1.Width = 200;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            dataGridViewTextBoxColumn2.MinimumWidth = 10;
-            dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            dataGridViewTextBoxColumn2.ReadOnly = true;
-            dataGridViewTextBoxColumn2.Width = 200;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            dataGridViewTextBoxColumn3.MinimumWidth = 10;
-            dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            dataGridViewTextBoxColumn3.ReadOnly = true;
-            dataGridViewTextBoxColumn3.Width = 200;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            dataGridViewTextBoxColumn4.MinimumWidth = 10;
-            dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            dataGridViewTextBoxColumn4.ReadOnly = true;
-            dataGridViewTextBoxColumn4.Width = 200;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            dataGridViewTextBoxColumn5.MinimumWidth = 10;
-            dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            dataGridViewTextBoxColumn5.ReadOnly = true;
-            dataGridViewTextBoxColumn5.Width = 200;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            dataGridViewTextBoxColumn6.MinimumWidth = 10;
-            dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            dataGridViewTextBoxColumn6.ReadOnly = true;
-            dataGridViewTextBoxColumn6.Width = 200;
+            this.lblStatus.AutoSize = true;
+            this.lblStatus.Location = new System.Drawing.Point(180, 449);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(40, 13);
+            this.lblStatus.TabIndex = 15;
+            this.lblStatus.Text = "Статус:";
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1699, 1184);
-            Controls.Add(lblStatus);
-            Controls.Add(btnOpenSelected);
-            Controls.Add(dgvListings);
-            Controls.Add(groupBoxInput);
-            Margin = new Padding(6, 7, 6, 7);
-            Name = "MainForm";
-            Text = "СелениумПарс - Парсинг недвижимости";
-            groupBoxInput.ResumeLayout(false);
-            groupBoxInput.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvListings).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(784, 481);
+            this.Controls.Add(this.lblStatus);
+            this.Controls.Add(this.btnOpenSelected);
+            this.Controls.Add(this.dgvListings);
+            this.Controls.Add(this.groupBoxInput);
+            this.Name = "MainForm";
+            this.Text = "СелениумПарс - Парсинг недвижимости";
+            this.groupBoxInput.ResumeLayout(false);
+            this.groupBoxInput.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListings)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
-
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
     }
 }
