@@ -11,6 +11,9 @@ namespace KursParsSeleniumWinForms
         public MainForm()
         {
             InitializeComponent();
+            dgvListings.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvListings.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
+            dgvListings.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             // »нициализируем список методов сортировки
             cmbSortMethod.Items.AddRange(new string[]
             {

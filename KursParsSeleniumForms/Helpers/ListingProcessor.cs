@@ -19,7 +19,7 @@ namespace KursParsSelenium
                     listings.Sort((a, b) => a.Price.CompareTo(b.Price));
                     break;
                 case 2:
-                    listings.Sort((a, b) => a.Rating.CompareTo(b.Rating));
+                    listings.Sort((a, b) => Convert.ToDecimal(a.Rating).CompareTo(Convert.ToDecimal(b.Rating)));
                     break;
                 case 3:
                     listings.Sort((a, b) => a.ReviewsCount.CompareTo(b.ReviewsCount));

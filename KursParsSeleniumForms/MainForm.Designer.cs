@@ -196,7 +196,7 @@
             this.dgvListings.AllowUserToDeleteRows = false;
             this.dgvListings.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListings.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-                new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "Title", HeaderText = "Название отеля" },
+                new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "Title", HeaderText = "Название жилья" },
                 new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "Price", HeaderText = "Цена" },
                 new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "Rating", HeaderText = "Оценка" },
                 new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "ReviewsCount", HeaderText = "Кол-во отзывов" },
